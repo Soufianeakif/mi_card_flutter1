@@ -18,7 +18,11 @@ class MyApp extends StatelessWidget {
           title: const Center(
               child: Text(
             'Dice Game',
-            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+            style: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+                fontSize: 30.0,
+                fontFamily: 'Silkscreen'),
           )),
           backgroundColor: Colors.grey[800],
         ),
